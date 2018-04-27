@@ -2,7 +2,7 @@
   "name": "@netflix/element-server",
   "author": "Casey Klebba",
   "description": "Serves your element.",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "license": "MIT",
   "repository": "netflix/element-server",
   "main": "index.js",
