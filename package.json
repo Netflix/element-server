@@ -3,9 +3,12 @@
   "author": "Casey Klebba",
   "description": "Serves your element.",
   "version": "1.0.9",
-  "license": "MIT",
-  "repository": "netflix/element-server",
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": "https://github.com/Netflix/element-server",
   "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "start": "node index.js",
     "lint": "eslint --quiet .",
@@ -15,6 +18,7 @@
     "element-server": "bin/server.js"
   },
   "files": [
+    "LICENSE",
     "/index.js",
     "/bin"
   ],
@@ -22,7 +26,6 @@
     "node-static": "^0.7.10"
   },
   "devDependencies": {
-    "eslint": "^4.19.1",
-    "eslint-config-netflix-data": "^1.0.8"
+    "eslint": "^5.16.0"
   }
 }
